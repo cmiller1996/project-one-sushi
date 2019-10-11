@@ -5,6 +5,8 @@ body {
 	background-repeat: no-repeat;
 }
 
+
+
 a {
 	text-decoration: none;
 }
@@ -32,6 +34,9 @@ h1{
 	font-family: 'Varela Round', sans-serif;
 	color:#FF3925;
 	font-size: 60px;
+	font-weight: bold;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color:black;
 	padding:20px;	
 	margin-left:30px;
 	font-weight: bold;	
@@ -44,4 +49,35 @@ ul.bottom-list {
 	margin-left: 40px;
 	font-size:24px;
 	color:003333;
+	width: 100%;
+}
+
+li.bottom {
+	font-family: 'Varela Round', sans-serif;
+	display: inline-block;
+	margin-left: 40px;
+	font-size:24px;
+
+
+}
+
+div{
+	float: right;
+}
+
+img {
+	height: 60%;
+	width: 60%;
+}
+
+h2{
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 26px;	
+
+}
+
+p{
+	font-family: 'Nunito', sans-serif;
+
 }
