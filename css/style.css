@@ -13,21 +13,21 @@ a {
 
 nav ul{
 	list-style-type: none;
+	color:pink;
 }
 
 nav li{
 	font-family: 'Varela Round', sans-serif;
 	display: inline-block;
-	margin-left: 40px;
 	font-size:24px;
-	color:003333;
+	color: pink;
 	margin-top: 45px;	
-	padding-right: 80px;
+	text-align: center;
 }
 
 nav{
 	display: grid;
-	grid-template-columns: 50% 50%;	
+	grid-template-columns: 30% 570%;	
 }
 
 h1{
@@ -46,19 +46,18 @@ ul.bottom-list {
 	list-style-type:none;
 	font-family: 'Varela Round', sans-serif;
 	display: inline-block;
-	margin-left: 40px;
-	font-size:24px;
+	font-size: 10px;
 	color:003333;
 	width: 100%;
+	padding-bottom: 20px
 }
 
-li.bottom {
+li{
 	font-family: 'Varela Round', sans-serif;
 	display: inline-block;
 	margin-left: 40px;
 	font-size:24px;
-
-
+	padding-left: 130px;
 }
 
 div{
@@ -66,9 +65,15 @@ div{
 }
 
 img {
-	height: 60%;
-	width: 60%;
+	height: 100%;
+	width: 100%;
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
 }
+
 
 h2{
 	font-family: 'Nunito', sans-serif;
@@ -80,4 +85,20 @@ h2{
 p{
 	font-family: 'Nunito', sans-serif;
 
+}
+
+footer{
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+}
+
+
+
+hr{
+	 border: 3px solid red;
+}
+
+img.sushi-one{
+	float:left;
+	margin:4%;
 }
