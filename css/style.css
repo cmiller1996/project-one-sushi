@@ -13,14 +13,14 @@ a {
 
 nav ul{
 	list-style-type: none;
-	color:pink;
+	
 }
 
 nav li{
 	font-family: 'Varela Round', sans-serif;
 	display: inline-block;
-	font-size:24px;
-	color: pink;
+	font-size:20px;
+	color:white;
 	margin-top: 45px;	
 	text-align: center;
 }
@@ -28,6 +28,7 @@ nav li{
 nav{
 	display: grid;
 	grid-template-columns: 30% 570%;	
+
 }
 
 h1{
@@ -90,6 +91,7 @@ p{
 footer{
 	text-align: center;
 	font-family: 'Varela Round', sans-serif;
+	padding: 40px 40px;
 }
 
 
@@ -98,7 +100,45 @@ hr{
 	 border: 3px solid red;
 }
 
+p.about{
+	font-family: 'Varela Round', sans-serif;
+	text-indent: 3%;
+	padding-top:50px;
+	margin-left: 30px;	
+	margin-right: 30px;
+
+}
+
+p.about-two{
+		font-family: 'Varela Round', sans-serif;
+	text-indent: 3%;
+	padding-bottom:50px;
+	margin-left: 30px;	
+	margin-right: 30px;
+	}
+
+img.menu{
+	padding-bottom:50px;
+	padding-top:50px;
+	
+}
+
 img.sushi-one{
 	float:left;
 	margin:4%;
+}
+
+img.home{
+	max-width: 90%
+	max-height:90%;
+}
+
+div.grid-item{
+	float:right;
+	padding-top: 80px;
+}
+
+section{
+	display:grid;
+	grid-template-columns:50% 50%
 }
