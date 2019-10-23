@@ -29,6 +29,20 @@ nav li {
 
 nav a {color: #FF3925;}
 
+nav a:hover {
+	background-size: 30px;
+}
+a:hover {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 60px;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+  overflow:hidden;
+}
+
 nav{
 	display: grid;
 	grid-template-columns: 40% 60%;	
@@ -68,9 +82,10 @@ li{
 	font-family: 'Varela Round', sans-serif;
 	display: inline-block;
 	margin-left: 40px;
-	font-size:24px;
+	font-size:30px;
 	padding-left: 130px;
 	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 div{
@@ -192,3 +207,5 @@ padding-bottom: 30px;
 	padding-left: 100px;
 	
 }
+
+
